@@ -20,22 +20,22 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header class="header__border">
-      <div class="container container--header">
+    <header class="header">
+      <div class="container header__wrapper">
         <nav class="header__left">
           <a href="index.html" class="header__logo">
             <span class="header__logo--blue">Web</span>Studio
           </a>
           <ul class="header__menu">
             <li>
-              <a href="./index.html" class="menu__link menu__link--actualy"
+              <a href="./index.html" class="menu__link menu__link--actually"
                 >Agencja</a
               >
             </li>
             <li>
               <a href="./portfolio.html" class="menu__link">Portfolio</a>
             </li>
-            <li class="header__menu--last">
+            <li>
               <a href="#" class="menu__link">Kontakt</a>
             </li>
           </ul>
@@ -74,62 +74,62 @@
         </div>
       </div>
       <div class="container">
-        <section class="text-panel section">
-          <ul class="text-panel__list">
-            <li class="text-panel__li">
-              <div class="text-panel__icon flex">
+        <section class="section section--text-cards">
+          <ul class="text-cards">
+            <li class="text-card">
+              <div class="text-card__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna-1"></use>
                 </svg>
               </div>
-              <h5 class="text-panel__head">LOREM IPSUM</h5>
-              <p class="text-panel__disc">
+              <h5 class="text-card__head">LOREM IPSUM</h5>
+              <p class="text-card__disc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="text-panel__li">
-              <div class="text-panel__icon flex">
+            <li class="text-card">
+              <div class="text-card__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-clock-1"></use>
                 </svg>
               </div>
-              <h5 class="text-panel__head">LOREM IPSUM</h5>
-              <p class="text-panel__disc">
+              <h5 class="text-card__head">LOREM IPSUM</h5>
+              <p class="text-card__disc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="text-panel__li">
-              <div class="text-panel__icon flex">
+            <li class="text-card">
+              <div class="text-card__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram-1"></use>
                 </svg>
               </div>
-              <h5 class="text-panel__head">LOREM IPSUM</h5>
-              <p class="text-panel__disc">
+              <h5 class="text-card__head">LOREM IPSUM</h5>
+              <p class="text-card__disc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
-            <li class="text-panel__li">
-              <div class="text-panel__icon flex">
+            <li class="text-card">
+              <div class="text-card__icon">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut-1"></use>
                 </svg>
               </div>
-              <h5 class="text-panel__head">LOREM IPSUM</h5>
-              <p class="text-panel__disc">
+              <h5 class="text-card__head">LOREM IPSUM</h5>
+              <p class="text-card__disc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
           </ul>
         </section>
-        <section class="offer section">
+        <section class="section">
           <h2 class="section__title">Czym się zajmujemy</h2>
-          <ul class="offer__list">
-            <li class="offer__li">
+          <ul class="offers">
+            <li class="offer">
               <img
                 class="offer__img"
                 src="./images/home/img-box1.jpg"
@@ -141,7 +141,7 @@
                 <p>Aplikacje komputerowe</p>
               </div>
             </li>
-            <li class="offer__li">
+            <li class="offer">
               <img
                 class="offer__img"
                 src="./images/home/img-box2.jpg"
@@ -153,7 +153,7 @@
                 <p>Aplikacje mobilne</p>
               </div>
             </li>
-            <li class="offer__li">
+            <li class="offer">
               <img
                 class="offer__img"
                 src="./images/home/img-box3.jpg"
@@ -168,22 +168,22 @@
           </ul>
         </section>
       </div>
-      <section class="team">
-        <div class="container section">
+      <section class="section section--persons">
+        <div class="container">
           <h2 class="section__title">Nasz zespół</h2>
-          <ul class="list team__list">
-            <li class="team__li">
-              <div class="team__card">
+          <ul class="persons">
+            <li class="person">
+              <div class="person__card">
                 <img
-                  class="team__img"
+                  class="person__img"
                   src="./images/home/product-designer.jpg"
                   alt="Jhon Doe Product Designer"
                   weight="270"
                   height="260"
                 />
-                <div class="team__description">
-                  <h5 class="team__name">Jhon Doe</h5>
-                  <p class="team__position">Product Designer</p>
+                <div class="person__description">
+                  <h5 class="person__name">Jhon Doe</h5>
+                  <p class="person__position">Product Designer</p>
                   <ul class="socials">
                     <li class="socials__border">
                       <svg width="20" height="20">
@@ -209,18 +209,18 @@
                 </div>
               </div>
             </li>
-            <li class="team__li">
-              <div class="team__card">
+            <li class="person">
+              <div class="person__card">
                 <img
-                  class="team__img"
+                  class="person__img"
                   src="./images/home/frontend-developer.jpg"
                   alt="Jhon Doe Frontend Developer"
                   weight="270"
                   height="260"
                 />
-                <div class="team__description">
-                  <h5 class="team__name">Jhon Doe</h5>
-                  <p class="team__position">Frontend Developer</p>
+                <div class="person__description">
+                  <h5 class="person__name">Jhon Doe</h5>
+                  <p class="person__position">Frontend Developer</p>
                   <ul class="socials">
                     <li class="socials__border">
                       <svg width="20" height="20">
@@ -247,18 +247,18 @@
               </div>
             </li>
 
-            <li class="team__li">
-              <div class="team__card">
+            <li class="person">
+              <div class="person__card">
                 <img
-                  class="team__img"
+                  class="person__img"
                   src="./images/home/marketing.jpg"
                   alt="Jhon Doe Marketing"
                   weight="270"
                   height="260"
                 />
-                <div class="team__description">
-                  <h5 class="team__name">Jhon Doe</h5>
-                  <p class="team__position">Marketing</p>
+                <div class="person__description">
+                  <h5 class="person__name">Jhon Doe</h5>
+                  <p class="person__position">Marketing</p>
                   <ul class="socials">
                     <li class="socials__border">
                       <svg width="20" height="20">
@@ -285,18 +285,18 @@
               </div>
             </li>
 
-            <li class="team__li">
-              <div class="team__card">
+            <li class="person">
+              <div class="person__card">
                 <img
-                  class="team__img"
+                  class="person__img"
                   src="./images/home/ui-designer.jpg"
                   alt="Jhon Doe Marketing"
                   weight="270"
                   height="260"
                 />
-                <div class="team__description">
-                  <h5 class="team__name">Jhon Doe</h5>
-                  <p class="team__position">UI Designer</p>
+                <div class="person__description">
+                  <h5 class="person__name">Jhon Doe</h5>
+                  <p class="person__position">UI Designer</p>
                   <ul class="socials">
                     <li class="socials__border">
                       <svg width="20" height="20">
@@ -328,43 +328,43 @@
 
       <section class="container section">
         <h2 class="section__title">Nasi klienci</h2>
-        <ul class="clients__list">
-          <li class="clients__list-item">
+        <ul class="clients">
+          <li class="client">
             <div class="clients__logo">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo1 "></use>
               </svg>
             </div>
           </li>
-          <li class="clients__list-item">
+          <li class="client">
             <div class="clients__logo">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo2 "></use>
               </svg>
             </div>
           </li>
-          <li class="clients__list-item">
+          <li class="client">
             <div class="clients__logo">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo3 "></use>
               </svg>
             </div>
           </li>
-          <li class="clients__list-item">
-            <div class="clients__logo">
+          <li class="client">
+            <div class="client">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo4 "></use>
               </svg>
             </div>
           </li>
-          <li class="clients__list-item">
+          <li class="client">
             <div class="clients__logo">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo5 "></use>
               </svg>
             </div>
           </li>
-          <li class="clients__list-item">
+          <li class="client">
             <div class="clients__logo">
               <svg width="106" height="60">
                 <use href="./images/icons.svg#icon-logo6 "></use>
@@ -375,7 +375,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container container--footer">
+      <div class="container footer__container">
         <div class="footer__wrapper">
           <a href="/index.html" class="footer__logo"
             ><span class="footer__logo--web">Web</span>Studio
@@ -399,28 +399,28 @@
           <h5 class="footer__title">DOŁĄCZ DO NAS</h5>
           <ul class="socials">
             <li>
-              <div class="socials__border socials__border--footer">
+              <div class="socials__border socials__border--contrast-color">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="socials__border socials__border--footer">
+              <div class="socials__border socials__border--contrast-color">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="socials__border socials__border--footer">
+              <div class="socials__border socials__border--contrast-color">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </div>
             </li>
             <li>
-              <div class="socials__border socials__border--footer">
+              <div class="socials__border socials__border--contrast-color">
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin-1 "></use>
                 </svg>
@@ -449,11 +449,11 @@
       </div>
     </footer>
     <div class="is-hidden" data-modal>
-      <div class="backdrop flex">
+      <div class="backdrop">
         <div class="modal">
           <div>
             <form>
-              <button type="reset" class="icon-close-bnt flex" data-modal-close>
+              <button type="reset" class="icon-close-bnt" data-modal-close>
                 <svg width="11" height="11">
                   <use href="./images/icons.svg#icon-clsbnt "></use>
                 </svg>
