@@ -1,0 +1,17 @@
+.client {
+  width: 170px;
+  height: 92px;
+  border: solid 1px #afb1b8;
+  border-radius: 4px;
+  fill: $svg-color;
+  transition: border-color 0.25s, fill 0.25s;
+  transition-timing-function: $cubic-bezier;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover,
+  &:focus {
+    border-color: $brand-color;
+    fill: $brand-color;
+  }
+}

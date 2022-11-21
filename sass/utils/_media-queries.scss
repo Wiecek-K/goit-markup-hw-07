@@ -1,0 +1,10 @@
+@media screen and (max-width: 901px) {
+  .menu__item--actually::after {
+    top: 31px;
+  }
+}
+@media screen and (max-width: 693.5px) {
+  .menu__item--actually::after {
+    top: 1px;
+  }
+}

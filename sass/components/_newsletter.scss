@@ -1,0 +1,36 @@
+.newsletter {
+  display: inline-block;
+  margin-top: 12px;
+}
+.newsletter__heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.newsletter__input {
+  padding: 15px;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+}
+.newsletter__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  height: 50px;
+}
+
+.newsletter__icon {
+  fill: $contrast-color;
+  margin-left: 24px;
+}

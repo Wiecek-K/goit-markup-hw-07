@@ -1,0 +1,27 @@
+.text-card {
+  flex-basis: 22.5%;
+  display: inline-block;
+  min-width: 200px;
+}
+
+.text-card__head {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14em;
+  margin-bottom: 10px;
+}
+.text-card__disc {
+  color: $weak-color;
+  font-size: 14px;
+  line-height: 1.71em;
+}
+.text-card__icon {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: $second-section-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

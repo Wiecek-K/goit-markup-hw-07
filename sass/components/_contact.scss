@@ -1,0 +1,40 @@
+.contact {
+  margin-left: 50px;
+  flex-direction: column;
+}
+.contact__icon {
+  align-items: center;
+  margin-right: 0.2rem;
+  fill: $weak-color;
+  margin-bottom: 2px;
+  transition: fill 0.25s;
+  transition-timing-function: $cubic-bezier;
+}
+.contact__link {
+  color: $weak-color;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.14em;
+  display: flex;
+  align-items: center;
+  transition: color 0.25s;
+  transition-timing-function: $cubic-bezier;
+  text-decoration: none;
+}
+.contact:hover {
+  & .contact__link {
+    color: $brand-color;
+  }
+  & .contact__icon {
+    fill: $brand-color;
+  }
+}
+.contact:has(.contact__link:focus) {
+  & .contact__link {
+    color: $brand-color;
+  }
+  & .contact__icon {
+    fill: $brand-color;
+  }
+}

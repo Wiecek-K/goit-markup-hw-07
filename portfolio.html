@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
 
     <title>Portfolio WebStudio</title>
   </head>
@@ -22,37 +22,35 @@
     <header class="header">
       <div class="container header__wrapper">
         <nav class="header__left">
-          <a href="index.html" class="header__logo">
-            <span class="header__logo--blue">Web</span>Studio
+          <a href="index.html" class="logo">
+            <span class="logo__second">Web</span>Studio
           </a>
-          <ul class="header__menu">
-            <li>
-              <a href="./index.html" class="menu__link menu__link--actually"
-                >Agencja</a
-              >
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">Agencja</a>
             </li>
-            <li>
+            <li class="menu__item menu__item--actually">
               <a href="./portfolio.html" class="menu__link">Portfolio</a>
             </li>
-            <li>
+            <li class="menu__item">
               <a href="#" class="menu__link">Kontakt</a>
             </li>
           </ul>
         </nav>
 
         <ul class="header__contacts">
-          <li class="contacts__li">
-            <a href="mailto:info@devstudio.com" class="contacts__link"
-              ><svg class="link__svg" width="12" height="16">
+          <li class="contact">
+            <a href="mailto:info@devstudio.com" class="contact__link"
+              ><svg class="contact__icon" width="12" height="16">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
 
-          <li class="contacts__li">
-            <a href="tel:+48111111111" class="contacts__link"
-              ><svg class="link__svg" width="12" height="16">
+          <li class="contact">
+            <a href="tel:+48111111111" class="contact__link"
+              ><svg class="contact__icon" width="12" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +48 111 111 111
@@ -282,10 +280,10 @@
       </ul>
     </main>
     <footer class="footer">
-      <div class="container footer__container">
-        <div class="footer__wrapper">
-          <a href="/index.html" class="footer__logo"
-            ><span class="footer__logo--web">Web</span>Studio
+      <div class="container footer__wrapper">
+        <div class="footer__left-panel">
+          <a href="/index.html" class="logo logo--footer"
+            ><span class="logo__second--footer">Web</span>Studio
           </a>
           <address>
             <p class="footer__address">Warszawa, Aleje Jerozolimskie 21</p>
@@ -346,7 +344,7 @@
               id="newsletter"
               placeholder="E-mail"
           /></label>
-          <button type="submit" class="button newsletter__button">
+          <button type="submit" class="button button--newsletter">
             Zapisz się
             <svg width="24" height="24" class="newsletter__icon">
               <use href="./images/icons.svg#icon-newsletter"></use>

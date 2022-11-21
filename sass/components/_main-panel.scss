@@ -1,0 +1,27 @@
+.main-panel {
+  background-color: $footer-color;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/home/img-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: $contrast-color;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-panel__heading {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36em;
+  letter-spacing: 0.06em;
+  max-width: 696px;
+}
